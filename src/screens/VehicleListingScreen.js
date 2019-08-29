@@ -11,7 +11,7 @@ import Button from "../components/button"
 
 const URL = 'http://localhost:3001/api/VehicleListing'
 
-export default class VehicleScreen extends Component {
+export default class VehicleListingScreen extends Component {
 
     constructor(props){
         super(props)
@@ -35,7 +35,7 @@ export default class VehicleScreen extends Component {
             description: this.state.description,
             state: this.state.state,
             offers: this.state.offers,
-            vehicle: this.state.vehicle
+            vehicle: `resource:org.acme.vehicle.auction.Vehicle#${this.state.vehicle}`
         })
 
         const data = {
