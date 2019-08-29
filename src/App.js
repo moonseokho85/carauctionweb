@@ -4,6 +4,7 @@ import VehicleScreen from './screens/VehicleScreen'
 import AuctioneerScreen from './screens/AuctioneerScreen'
 import VehicleListingScreen from './screens/VehicleListingScreen'
 import OfferScreen from './screens/OfferScreen'
+import CloseBiddingScreen from './screens/CloseBiddingScreen'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <VehicleScreen />
       <VehicleListingScreen />
       <OfferScreen />
+      <CloseBiddingScreen />
     </div>
   );
 }
