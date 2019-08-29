@@ -3,6 +3,7 @@ import MemberScreen from './screens/MemberScreen'
 import VehicleScreen from './screens/VehicleScreen'
 import AuctioneerScreen from './screens/AuctioneerScreen'
 import VehicleListingScreen from './screens/VehicleListingScreen'
+import OfferScreen from './screens/OfferScreen'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <MemberScreen />
       <VehicleScreen />
       <VehicleListingScreen />
+      <OfferScreen />
     </div>
   );
 }

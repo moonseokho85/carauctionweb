@@ -34,7 +34,7 @@ export default class VehicleListingScreen extends Component {
             reservePrice: this.state.reservePrice,
             description: this.state.description,
             state: this.state.state,
-            offers: this.state.offers,
+            // offers: this.state.offers,
             vehicle: `resource:org.acme.vehicle.auction.Vehicle#${this.state.vehicle}`
         })
 
@@ -44,7 +44,7 @@ export default class VehicleListingScreen extends Component {
             reservePrice: this.state.reservePrice,
             description: this.state.description,
             state: this.state.state,
-            offers: this.state.offers,
+            // offers: this.state.offers,
             vehicle: this.state.vehicle
         }
 
@@ -114,12 +114,12 @@ export default class VehicleListingScreen extends Component {
                        onChange={this.handleChange}
                        name="state" 
                     />
-                    <input 
+                    {/* <input 
                        placeholder="offers"
                        value={this.state.offers}
                        onChange={this.handleChange}
                        name="offers" 
-                    />
+                    /> */}
                     <input 
                        placeholder="vehicle"
                        value={this.state.vehicle}
