@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import MemberScreen from './screens/MemberScreen'
+import VehicleScreen from './screens/VehicleScreen'
 
 function App() {
   return (
     <div className="App">
-      <p> 여기에 컴포넌트 선언 </p>
+      <MemberScreen />
+      <VehicleScreen />
     </div>
   );
 }
